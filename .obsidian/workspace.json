@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "98b7264d32c778fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f57ac1014665b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8d79d0d5af9d098",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ead486191f035baf",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d2e35ca0baa24c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0b7b75eaf762ef8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "087e8be497e4711a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b0e765e37a11849",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8751df4907125f3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "41cf581c81a1313e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6913d12a43bf60e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2dbde491effbd4e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bc194d8f1c5bf4d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "18dd81d747663704",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "0198de2858c0de36",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a8d79d0d5af9d098",
+  "lastOpenFiles": [
+    "数据库/mysql/MySql的安装.md",
+    "README.md",
+    "数据库/mysql",
+    "数据库/递归查询.md",
+    "数据库/postgreSql/postgreSql自增序列.md",
+    "数据库/mySql/未命名.md",
+    "数据库/mySql",
+    "数据库/postgreSql",
+    "GitHub配置ssh Key.md",
+    "未命名.canvas",
+    "数据库"
+  ]
+}
