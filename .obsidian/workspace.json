@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "91832beeb73ce725",
+        "id": "cab50b8e85a3feca",
         "type": "tabs",
         "children": [
           {
-            "id": "4c39e24cbf0fc320",
+            "id": "071b515247865d5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/IDEA小技巧.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDE/IDEA小技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDE/IDEA小技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IDE/IDEA小技巧.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,29 +147,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4c39e24cbf0fc320",
+  "active": "071b515247865d5f",
   "lastOpenFiles": [
-    "IDE/IDEA 插件.md",
-    "程序开发/SpringBoot静态注入.md",
+    "数据库/mysql修改自增.md",
+    "GitHub加速.md",
+    "数据库/postgreSql/变量和脚本执行.md",
+    "程序开发/easyExcel导入.md",
+    "程序开发/JacksonUtil.md",
     "程序开发/mybatis 枚举入库.md",
-    "数据库/云连接.md",
+    "程序开发/SpringBoot静态注入.md",
+    "程序开发/springboot手动回滚事务.md",
     "程序开发/springboot枚举接收.md",
+    "数据库/递归查询.md",
+    "数据库/云连接.md",
+    "IDE/IDEA 插件.md",
+    "IDE/IDEA小技巧.md",
     "好用的插件.md",
     "收集.md",
     "README.md",
     "GitHub配置ssh Key.md",
-    "程序开发/springboot手动回滚事务.md",
     "程序开发/mybatis调用java方法.md",
     "数据库/postgreSql/锁表问题.md",
     "程序开发/Java-LIst分片.md",
-    "程序开发/JacksonUtil.md",
-    "IDE/IDEA小技巧.md",
     "未命名.canvas",
     "IDE",
-    "程序开发/easyExcel导入.md",
     "数据库/postgreSql/自增序列.md",
-    "数据库/递归查询.md",
-    "数据库/postgreSql/变量和脚本执行.md",
     "程序开发",
     "数据库/mysql/MySql的安装.md",
     "数据库/mysql",
