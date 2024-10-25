@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cab50b8e85a3feca",
+        "id": "90fd61b37d538955",
         "type": "tabs",
         "children": [
           {
-            "id": "071b515247865d5f",
+            "id": "c6aba8f2e6469d3f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GitHub加速.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "GitHub加速"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -88,7 +100,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -99,7 +113,9 @@
               "state": {
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -110,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -126,7 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
-              "state": {}
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           }
         ],
@@ -147,19 +169,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "071b515247865d5f",
+  "active": "c6aba8f2e6469d3f",
   "lastOpenFiles": [
-    "数据库/mysql修改自增.md",
-    "GitHub加速.md",
+    "数据库/postgreSql/定时备份数据.md",
+    "数据库/postgreSql/自增序列.md",
     "数据库/postgreSql/变量和脚本执行.md",
+    "数据库/云连接.md",
+    "数据库/递归查询.md",
+    "数据库/mysql/修改自增值.md",
+    "数据库/mysql",
+    "易经/序卦传.md",
+    "易经",
+    "GitHub加速.md",
     "程序开发/easyExcel导入.md",
     "程序开发/JacksonUtil.md",
     "程序开发/mybatis 枚举入库.md",
     "程序开发/SpringBoot静态注入.md",
     "程序开发/springboot手动回滚事务.md",
     "程序开发/springboot枚举接收.md",
-    "数据库/递归查询.md",
-    "数据库/云连接.md",
     "IDE/IDEA 插件.md",
     "IDE/IDEA小技巧.md",
     "好用的插件.md",
@@ -171,7 +198,6 @@
     "程序开发/Java-LIst分片.md",
     "未命名.canvas",
     "IDE",
-    "数据库/postgreSql/自增序列.md",
     "程序开发",
     "数据库/mysql/MySql的安装.md",
     "数据库/mysql",
