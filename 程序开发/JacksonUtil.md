@@ -1,5 +1,4 @@
 ```java
-  
 import com.fasterxml.jackson.annotation.JsonInclude;  
 import com.fasterxml.jackson.core.JsonProcessingException;  
 import com.fasterxml.jackson.core.type.TypeReference;  
@@ -13,6 +12,8 @@ import java.text.SimpleDateFormat;
   
 /**  
  * jackson json格式化工具类  
+ *  
+ * @author 黑色的小火苗  
  */  
 @Slf4j  
 public class JacksonUtil {  
@@ -40,14 +41,6 @@ public class JacksonUtil {
      * @return String json字符串  
      */  
     public static String toJson(Object obj) {  
-        if (null == obj) {  
-            throw new IllegalArgumentException("[ jackson ] java对象转json字符串时参数为空");  
-        }  
-  
-        if (obj instanceof String) {  
-            throw new IllegalArgumentException("[ jackson ] java对象转json字符串时参数为字符串");  
-        }  
-  
         try {  
             return OM.writeValueAsString(obj);  
         } catch (JsonProcessingException e) {  
@@ -65,12 +58,6 @@ public class JacksonUtil {
      * @return java对象  
      */  
     public static <T> T toObj(String str, Class<T> cls) {  
-        if (null == str || str.isBlank() || null == cls) {  
-            throw new IllegalArgumentException("[ jackson ] json字符串转java对象时参数为空");  
-        }  
-        if (cls.equals(String.class)) {  
-            throw new IllegalArgumentException("[ jackson ] json字符串转java对象时class为字符串");  
-        }  
         try {  
             return OM.readValue(str, cls);  
         } catch (Exception e) {  
@@ -80,13 +67,6 @@ public class JacksonUtil {
     }  
   
     public static <T> T toObj(String str, TypeReference<T> typeReference) {  
-        if (null == str || str.isBlank() || typeReference == null) {  
-            throw new IllegalArgumentException("[ jackson ] json字符串转javaList对象时参数为空");  
-        }  
-        if (String.class.equals(typeReference.getType())) {  
-            throw new IllegalArgumentException("[ jackson ] json字符串转javaList对象时class为字符串");  
-        }  
-  
         try {  
             return OM.readValue(str, typeReference);  
         } catch (JsonProcessingException e) {  
@@ -97,12 +77,9 @@ public class JacksonUtil {
   
     /**  
      * 直接读取json字符串转JsonNode  
-     *     * @param str json字符串  
-     * @return JsonNode  
-     */    public static JsonNode toJsonNode(String str) {  
-        if (null == str || str.isBlank()) {  
-            throw new IllegalArgumentException("[ jackson ] 读取json字符串转JsonNode时参数为空");  
-        }  
+     * * @param str json字符串  
+     *  
+     * @return JsonNode     */    public static JsonNode toNode(String str) {  
         try {  
             return OM.readTree(str);  
         } catch (JsonProcessingException e) {  

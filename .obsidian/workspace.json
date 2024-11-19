@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/postgreSql/自增序列.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "自增序列"
-            }
-          },
-          {
-            "id": "38301fe31b1c533a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/postgreSql/定时备份数据.md",
+                "file": "程序开发/SpringBoot静态注入.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "定时备份数据"
+              "title": "SpringBoot静态注入"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,12 +169,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "38301fe31b1c533a",
+  "active": "a2d1c5c3a7b9399f",
   "lastOpenFiles": [
-    "数据库/postgreSql/自增序列.md",
+    "程序开发/springboot枚举接收.md",
+    "程序开发/SpringBoot静态注入.md",
+    "程序开发/springboot手动回滚事务.md",
+    "程序开发/AES加密.md",
     "程序开发/JacksonUtil.md",
-    "数据库/postgreSql/找寻表主键.md",
     "数据库/postgreSql/获取表与序列的关系.md",
+    "数据库/postgreSql/自增序列.md",
+    "数据库/postgreSql/找寻表主键.md",
     "数据库/postgreSql/定时备份数据.md",
     "数据库/postgreSql/锁表问题.md",
     "好用的插件.md",
@@ -204,9 +193,6 @@
     "易经",
     "程序开发/easyExcel导入.md",
     "程序开发/mybatis 枚举入库.md",
-    "程序开发/SpringBoot静态注入.md",
-    "程序开发/springboot手动回滚事务.md",
-    "程序开发/springboot枚举接收.md",
     "IDE/IDEA 插件.md",
     "IDE/IDEA小技巧.md",
     "README.md",
@@ -216,7 +202,6 @@
     "未命名.canvas",
     "IDE",
     "程序开发",
-    "数据库/mysql/MySql的安装.md",
     "数据库/mysql",
     "数据库/mySql",
     "数据库/postgreSql",
