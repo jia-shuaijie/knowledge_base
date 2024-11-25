@@ -75,16 +75,19 @@ public class JacksonUtil {
         }  
     }  
   
+  
     /**  
      * 直接读取json字符串转JsonNode  
      * * @param str json字符串  
      *  
-     * @return JsonNode     */    public static JsonNode toNode(String str) {  
+     * @return JsonNode     
+     */    
+	public static JsonNode toNode(String str) {  
         try {  
             return OM.readTree(str);  
         } catch (JsonProcessingException e) {  
-            // 对外不暴露具体错误信息  
-            throw new RuntimeException("[ jackson ] 读取json字符串转JsonNode时出现异常");  
+            // 对外不暴露具体错误信息    
+			throw new RuntimeException("[ jackson ] 读取json字符串转JsonNode时出现异常");
         }  
     }  
 }
